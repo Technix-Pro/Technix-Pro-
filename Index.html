@@ -1,1 +1,172 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technix-Pro | Oficjalna Strona Projektu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 16px;
+            padding: 40px 24px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #58a6ff;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #8b949e;
+            margin-bottom: 28px;
+            line-height: 1.5;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(56, 139, 253, 0.15);
+            color: #58a6ff;
+            border: 1px solid rgba(56, 139, 253, 0.4);
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
+            margin-bottom: 36px;
+            text-align: left;
+        }
+
+        .card {
+            background: #0d1117;
+            border: 1px solid #21262d;
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .card h3 {
+            color: #f0f6fc;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #8b949e;
+            font-size: 0.88rem;
+            line-height: 1.4;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+        }
+
+        .btn-primary {
+            background-color: #238636;
+            color: #ffffff;
+            border: 1px solid rgba(240, 246, 252, 0.1);
+        }
+
+        .btn-primary:hover {
+            background-color: #2ea043;
+        }
+
+        .btn-secondary {
+            background-color: #21262d;
+            color: #c9d1d9;
+            border: 1px solid #30363d;
+        }
+
+        .btn-secondary:hover {
+            background-color: #30363d;
+            color: #f0f6fc;
+        }
+
+        footer {
+            margin-top: 32px;
+            color: #484f58;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">TECHNIX-PRO</div>
+        <div class="badge">Budowanie Ekosystemu Web3 od Podstaw</div>
+        <p class="tagline">Jednoosobowa wizja rozwijana w potężną społeczność. Od sprzętu i dedykowanej mini-aplikacji na Telegramie, po airdropy i tokenizację.</p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>📲 Telegram Mini-App</h3>
+                <p>Uruchamiaj naszą aplikację bezpośrednio w komunikatorze Telegram bez instalacji zewnętrznego oprogramowania.</p>
+            </div>
+            <div class="card">
+                <h3>🌐 Ekosystem Web3</h3>
+                <p>Tworzymy przestrzeń pod airdropy, nagrody społecznościowe i przyszłą integrację tokenów na giełdach.</p>
+            </div>
+            <div class="card">
+                <h3>👥 Społeczność & Dev</h3>
+                <p>Szukamy aktywnych moderatorów, twórców treści oraz programistów chcących współtworzyć projekt od zera.</p>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <a href="https://t.me/TechnicalproBot" target="_blank" class="btn btn-primary">Otwórz Telegram Mini-App</a>
+            <a href="#" target="_blank" class="btn btn-secondary">Dołącz do Discorda</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Technix-Pro. Wszelkie prawa zastrzeżone.
+    </footer>
+
+</body>
+</html>
 
